@@ -94,12 +94,3 @@ Upon publishing `privacy-policy.html` to GitHub Pages, `AppConstants.PRIVACY_POL
 
 ---
 
-## REMAINING MANUAL STEPS
-
-1. Commit and push `privacy-policy.html` to the repository `https://github.com/SHAVINsolutions/Auto-Responder-by-Mr-Rider`.
-2. Enable and configure **GitHub Pages** in the repository settings (Source: `main` branch or `/root`).
-3. Verify the published URL (`https://shavinsolutions.github.io/Auto-Responder-by-Mr-Rider/privacy-policy.html`) in a web browser.
-4. Update `AppConstants.PRIVACY_POLICY_URL` in [`AppConstants.kt`](file:///C:/Users/ASUS/Downloads/photo/OrderFlow_AutoResponder_Local_Engine/app/src/main/java/com/orderflow/autoresponder/core/util/AppConstants.kt) with the verified live URL.
-5. Rebuild and test the application (`./gradlew app:assembleDebug`).
-6. Enter the verified live Privacy Policy URL into Google Play Console's Store Listing settings.
-7. Confirm that the Privacy Policy and Data Safety declarations in Google Play Console remain 100% consistent with `PLAY_STORE_DATA_SAFETY_NOTES.md`.
