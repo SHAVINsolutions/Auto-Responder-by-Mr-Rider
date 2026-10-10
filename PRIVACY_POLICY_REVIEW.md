@@ -1,6 +1,6 @@
 # Privacy Policy Source Code Audit & Review
 
-This document summarizes the technical source-code audit conducted for the **OrderFlow – WhatsApp Local Auto Responder** Privacy Policy (`privacy-policy.html`).
+This document summarizes the technical source-code audit conducted for the **Auto Responder by Mr Rider** Privacy Policy (`privacy-policy.html`).
 
 ---
 
@@ -83,14 +83,4 @@ Intended GitHub Pages public URL:
 The public Privacy Policy URL is centralized in:
 
 `com.orderflow.autoresponder.core.util.AppConstants.PRIVACY_POLICY_URL`
-
-Current code value in [`AppConstants.kt`](file:///C:/Users/ASUS/Downloads/photo/OrderFlow_AutoResponder_Local_Engine/app/src/main/java/com/orderflow/autoresponder/core/util/AppConstants.kt):
-
-`const val PRIVACY_POLICY_URL = "https://github.com/SHAVINsolutions/Auto-Responder-by-Mr-Rider"`
-
-Upon publishing `privacy-policy.html` to GitHub Pages, `AppConstants.PRIVACY_POLICY_URL` can be updated to point to the live HTML page URL:
-
-`https://shavinsolutions.github.io/Auto-Responder-by-Mr-Rider/privacy-policy.html`
-
----
 
